@@ -8,7 +8,9 @@ const Triangle = () => {
 
   return (
     <div className="triangleB">
-    <div className="triangle"></div>
+    <div className="triangle">
+        <h1>Triangle</h1>
+    </div>
     <button onClick={() => navigate('/')}>Back</button>
     </div>
   );

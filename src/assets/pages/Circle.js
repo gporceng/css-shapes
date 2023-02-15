@@ -9,7 +9,9 @@ const Circle = () => {
 
   return (
     <div className="circleB">
-    <div className="circle"></div>
+    <div className="circle">
+        <h1>Circle</h1>
+    </div>
     <button onClick={() => navigate('/')}>Back</button>
     </div>
   );

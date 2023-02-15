@@ -1,35 +1,30 @@
+:root {
+    --color-cream: #DFF8EB;
+    --color-mauve: #A28F9D;
+    --color-slate: #74776B;
+    --color-granite: #5C574F;
+    --color-charcoal: #48483A;
+  }
+  
+
+
 body {
     font-family: sans-serif;
-    background-color: red;
+    display: flex;
+    background-color: var(--color-charcoal);
+    justify-content: center;
+    align-items: center;
+    
 }
   
-  .home {
-    padding: 2rem;
-  }
-  
-  .home h1 {
-    font-size: 3rem;
-  }
-  
-  .home p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-  }
-  
-  nav {
-    margin-top: 1rem;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  nav li {
-    margin-right: 1rem;
-  }
+   
+    nav{
+        background-color: red;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
   
   nav a {
     color: #333;
@@ -44,6 +39,29 @@ body {
   nav a:hover {
     background-color: #333;
     color: #fff;
+  }
+
+
+  .home{
+    background-color: var(--color-cream);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+  .homeB {
+    background-color: var(--color-mauve);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border-top-right-radius: 12.5%;
+    border-top-left-radius: 12.5%;
+  }
+
+  .homeB li {
+    list-style: none;
+    font-size: 2rem;
+    margin: 1rem;
   }
   
 .circle {
