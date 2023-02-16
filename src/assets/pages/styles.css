@@ -92,7 +92,7 @@ body {
     height: 100vh;
   }
   
-  .square, .circle, .triangle {
+  .square, .circle, .triangle, .rhombus {
     animation-name: rotate;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -100,16 +100,27 @@ body {
     margin: 20vh;
   }
 
-  .squareB, .circleB, .triangleB {
+  .squareB, .circleB, .triangleB, .rhombusB {
     width: 100vw;
     height: 100vh;
-    background-color: #ff0080;
+    background-color: #bdbdbd;
     transform-origin: center;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
+
+  .rhombus {
+    width: 100px;
+    height: 100px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 200px solid var(--rhombus-color);
+    transform: rotate(-45deg);
+    background-color: red;
+  }
+  
   
   @keyframes rotate {
     from {

@@ -13,6 +13,7 @@ function Home() {
           <li><Link to="/square">Square</Link></li>
           <li><Link to="/circle">Circle</Link></li>
           <li><Link to="/triangle">Triangle</Link></li>
+          <li><Link to="/rhombus">Rhombus</Link></li>
         </div>
         </ul>
       </nav>
