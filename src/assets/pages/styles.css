@@ -19,7 +19,7 @@ body {
   
    
     nav{
-        background-color: red;
+        background-color: rgb(255, 255, 255);
         margin: 0;
         display: flex;
         justify-content: center;
@@ -112,13 +112,12 @@ body {
   }
 
   .rhombus {
-    width: 100px;
-    height: 100px;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-top: 200px solid var(--rhombus-color);
-    transform: rotate(-45deg);
-    background-color: red;
+    background: #CCC;
+    border: 1px solid #000;
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    transform: rotate(67.5deg) skewX(45deg) scaleY(cos(45deg));
   }
   
   
